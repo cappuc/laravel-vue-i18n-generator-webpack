@@ -36,4 +36,4 @@ plugins: [
 ```
 
 ## Licence
-Under [MIT](LICENCE)
+Under [MIT](LICENSE)
