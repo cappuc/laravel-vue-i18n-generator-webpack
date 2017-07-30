@@ -6,22 +6,22 @@ This is a wrapper for webpack around [Martin Lindhe](https://github.com/martinli
 - [laravel-vue-i18n-generator](https://github.com/martinlindhe/laravel-vue-i18n-generator)
 
 ## Usage
-Install laravel-vue-i18n-generator (see his [repo](https://github.com/martinlindhe/laravel-vue-i18n-generator) for more info): 
+Install laravel-vue-i18n-generator (see his [repo](https://github.com/martinlindhe/laravel-vue-i18n-generator) for more info)
 ```bash
 composer require martinlindhe/laravel-vue-i18n-generator
 ```
-In config/app.php add to providers:
+In config/app.php add to providers
 ```php
 MarinLindhe\VueInternationalizationGenerator\GeneratorProvider::class,
 ```
 
-Install laravel-vue-i18n-generator-webpack. This package is still in development, so it isn't on npmjs yet.
+Install laravel-vue-i18n-generator-webpack
 ```bash
 //npm
-npm install https://github.com/cappuc/laravel-vue-i18n-generator-webpack.git --save
+npm install laravel-vue-i18n-generator-webpack --save
 
 //yarn
-yarn add https://github.com/cappuc/laravel-vue-i18n-generator-webpack.git
+yarn add laravel-vue-i18n-generator-webpack
 ```
 
 Add to your webpack config
